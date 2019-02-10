@@ -24,5 +24,10 @@ var step2 = function () {
   form.style.display = "none";
   var paragraph1 = document.getElementById("Intro1");
   paragraph1.innerHTML = "Now "+name1+", which one of these two is your significant other?";
-
+  // var image1 = document.getElementById("image1");
+  // var image2 = document.getElementById("image2");
+  // image1.style.display ="block";
+  // image2.style.display ="block";
+  var images = document.getElementById("row");
+  row.style.display ="block";
 }

@@ -2,3 +2,16 @@ h1{
   font-size: 300%;
   font-family:sans-serif;
 }
+img{
+  max-width: 30%;
+}
+
+.col {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row{
+  display: inline-block;
+}
