@@ -1,11 +1,33 @@
 <html>
+<head>
+  <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+
+
 <body>
-<h1 id = "title"> Welcome to the Adventure Games</h1>
-<p id = "Part1">
-Be careful!
+
+
+<h1 id = "title">Q&A</h1>
+<p id = "Intro1">
+You've taken the ACT, the SAT, and numerous CSC tests. I don't know if they prepared you for this kind of test.
 </p>
-<button onclick=step1() type="button" id="button1">Begin</button>
+<p class="logo" id="Intro2"> It's Date Night! </p>
+<p id="Intro3">
+Are you ready?
+</p>
+
+<div id="textform" style="display:none">
+<input type="text" id="textform1" name="name" size="15"/>
+</div>
+
+<div id ="button1">
+<button onclick=step1() type="button" id="button1">READY</button>
+</div>
+
+<div id ="button2" style="display:none">
+<button onclick=step2() type="button" id="button2">Submit</button>
+</div>
 </body>
-<script src = "js/steps.js">
+<script src = "steps.js">
 </script>
 </html>
