@@ -1,6 +1,7 @@
 h1{
   font-size: 300%;
   font-family:sans-serif;
+  color: #e89420;
 }
 img{
   max-width: 30%;
@@ -14,4 +15,12 @@ img{
 
 .row{
   display: inline-block;
+}
+
+body{
+  background-color: #69196d;
+}
+
+p{
+  color:#ef64e8;
 }

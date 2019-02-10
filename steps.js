@@ -1,5 +1,6 @@
-var step1 = function()
-{
+var count = 0;
+
+var step1 = function(){
   var t = document.getElementById('button1');
   var paragraph1 = document.getElementById("Intro1");
   paragraph1.innerHTML = "Remind me. What's your name?";
@@ -30,4 +31,6 @@ var step2 = function () {
   // image2.style.display ="block";
   var images = document.getElementById("row");
   row.style.display ="block";
+  var form = document.getElementById("form");
+  form.style.display="block";
 }
