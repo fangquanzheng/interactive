@@ -1,6 +1,6 @@
 var count = 0;
 var date = "";
-
+var name = "";
 var step1 = function(){
   var t = document.getElementById('button1');
   var paragraph1 = document.getElementById("Intro1");
@@ -20,6 +20,7 @@ var step1 = function(){
 
 var step2 = function () {
   var name1 = document.getElementById('textform1').value;
+  name = name1;
   var button2 = document.getElementById("button2");
   button2.style.display = "none";
   var form = document.getElementById("textform");
@@ -135,7 +136,7 @@ var step7 = function(){
   }
   var paragraph1 = document.getElementById("Intro1");
   if (count==0) {
-    paragraph1.innerHTML = "I guess you passed :)";
+    paragraph1.innerHTML = name+", I guess you passed :)";
   }
   else if (count==1) {
     paragraph1.innerHTML = "Don't talk to me for a week.";
