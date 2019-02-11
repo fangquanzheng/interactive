@@ -21,27 +21,111 @@ Are you ready?
 </div>
 
 <div id ="button1">
-<button onclick=step1() type="button" id="button1">READY</button>
+<button onclick=step1() type="button" id="button1">READY?</button>
 </div>
 <div id="row" style="display:none">
 <img src="images/ALEX.png" alt="alex">
 <img src="images/DAVID.png" alt="david">
 </div>
+<div id="changeAlex" style="display:none">
+<img src="images/Changed ALEX.png" alt="alex">
+</div>
+<div id="changeDavid" style="display:none">
+<img src="images/Changed DAVID.png" alt="david">
+</div>
+<div id="happyAlex" style="display:none">
+<img src="images/Happy ALEX.png" alt="alex">
+</div>
+<div id="happyDavid" style="display:none">
+<img src="images/Happy DAVID.png" alt="david">
+</div>
 
 <div id="form" style="display:none">
-<form method="get">
+<form method="get" action="javascript:void(0);">
   <div class="radio">
   <input type="radio" name="type" value="Alex" checked="checked" />Alex
   <input type="radio" name="type" value="David" />David
-  <input id="submit" type="submit" name="Select" value="Select"/>
+  <input onclick=step3() id="submit" type="submit" name="Select" value="Select"/>
   </div>
 </form>
 </div>
+
+<div id="question1" style="display:none">
+<h3 id = "question"> 1. What do you do?</h3>
+<form method="get" action="javascript:void(0)">
+<div class="radio">
+<h4 id="options">
+<input type="radio" name=”type” value = "student pursuing medical school" checked = “checked”/> student pursuing medical school
+<input type="radio" name=”type” value = "art student" /> art student
+<input type="radio" name=”type” value = "student for cs major" /> student for cs major
+<input onclick=step4() id="submit" type="submit" name="Select" value="Select"/>
+</h4>
+</div>
+</form>
+</div>
+
+<div id="question2" style="display:none">
+<h3 id = "question">2. How long will you spend with me every week?</h3>
+<form method="get" action="javascript:void(0)">
+<div class="radio">
+<h4 id="options">
+<input type="radio" name=”type” value = "7 hours" checked = “checked”/> 7 hours
+<input type="radio" name=”type” value = "24 hours" /> 24 hours
+<input type="radio" name=”type” value ="3 hours" /> 3 hours
+<input onclick=step5() id="submit" type="submit" name="Select" value="Select"/>
+</h4>
+</div>
+</form>
+</div>
+
+<div id="question31" style="display:none">
+<h3 id = "question">3. Notice anything different about me?</h3>
+<form method="get" action="javascript:void(0)">
+<div class="radio">
+<h4 id="options">
+<input type="radio" name=”type” value = "haircut" checked = “checked”/> haircut
+<input type="radio" name=”type” value = "necklace" /> necklace
+<input type="radio" name=”type” value = "different makeup" /> different makeup
+<input onclick=step6() id="submit" type="submit" name="Select" value="Select"/>
+</h4>
+</div>
+</form>
+</div>
+
+<div id="question32" style="display:none">
+<h3 id = "question">3. Notice anything different about me?</h3>
+<form method="get" action="javascript:void(0)">
+<div class="radio">
+<h4 id="options">
+<input type="radio" name=”type” value = "haircut" checked = “checked”/> haircut
+<input type="radio" name=”type” value = "new shoes" /> new shoes
+<input type="radio" name=”type” value = "new watch" /> new watch
+<input onclick=step6() id="submit" type="submit" name="Select" value="Select"/>
+</h4>
+</div>
+</form>
+</div>
+
+<div id="question4" style="display:none">
+<h3 id = "question">4. Who is paying for dinner?</h3>
+<form method="get" action="javascript:void(0)">
+<div class="radio">
+<h4 id="options">
+<input type="radio" name=”type” value = "me" checked = “checked”/> me
+<input type="radio" name=”type” value = "you" /> you
+<input type="radio" name=”type” value = "split" /> split
+<input onclick=step7() id="submit" type="submit" name="Select" value="Select"/>
+</h4>
+</div>
+</form>
+</div>
+
 
 <div id ="button2" style="display:none">
 <button onclick=step2() type="button" id="button2">Submit</button>
 </div>
 </body>
+
 <script src = "steps.js">
 </script>
 

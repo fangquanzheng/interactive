@@ -24,3 +24,14 @@ body{
 p{
   color:#ef64e8;
 }
+
+h3{
+  font-size:100%;
+  font-family:sans-serif;
+  color:#ffffff;
+}
+h4{
+  font-size:70%;
+  font-family: sans-serif;
+  color:#ffffff;
+}
