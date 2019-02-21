@@ -1,15 +1,35 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="style0.css" type="text/css" rel="stylesheet" />
     <title></title>
   </head>
-  <body>
+  <body onload="mean()">
     <h1>M&M&M</h1>
     <h2>Mean</h2>
-    <p>Mean = 20.9</p>
+    <p>Mean = 19.95</p>
     <h2>Median</h2>
-    <p>Median=19</p>
+    <p>Median=18.5</p>
     <h2>Mode</h2>
-    <p>Mode=6,43 (bimodal)</p>
+    <p>Mode=2, 6, 43 (trimodal)</p>
+    <h2>Reduce Method: Mean</h2>
+    <p id="mean"></p>
+    <p>The reduce method works by taking an array and combining the numbers in the array
+    into one number, however the user wants. The reduce method needs a function to process
+    the numbers. This function is passed a "total" and a "number". The total is a variable that
+  is kept as a placeholder for what the array is going to be combined into. The number is the specific number
+in the array that the reduce method is at. The function that is passed to the reduce method, say a sum function will be
+passed the total and the number of the array it is at, adding each specific number to the total until the method goes through
+the whole array, when it then returns the sum. To get the mean, take the total and divide it by the length of the array. </p>
   </body>
+  <script>
+    var a = [11,4,41,50,7,19,8,18,2,6,43,6,20,43,2,23,12,24,31,29];
+    var av= 0;
+    var average= function(total,num){
+      return total+(num);
+    }
+    var mean=function(item){
+      document.getElementById("mean").innerHTML=a.reduce(average)/a.length;
+        }
+  </script>
 </html>

@@ -1,0 +1,218 @@
+@import "https://fonts.googleapis.com/css?family=Lobster|Montserrat";
+a:link{
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-size: 15pt;
+}
+a:visited{
+   color: #ffffff;
+   text-decoration: none;
+}
+a:active{
+  color: #1c8ece;
+}
+a:hover{
+  color:#1c8ece;
+}
+p{
+  margin: 10px auto 10px auto;
+  font-family: Montserrat;
+  font-size: 1.2em;
+  align-items: center;
+  text-align: center;
+  width:60%;
+}
+
+p.links{
+  border-style: solid;
+  border-width: medium;
+  border-color: #115277;
+  background-color: #115277;
+  border-radius: 20px;
+  text-align: center;
+  height: 5%;
+  width: 50%;
+  margin: 10px auto 10px auto;
+  padding-top: 15px;
+  word-spacing: 5em;
+}
+
+body{
+  background-color: #e0ded7;
+  border: none;
+}
+
+h1{
+  text-align: center;
+  font-family: Lobster;
+  font-size: 300%;
+  color:#115277;
+
+}
+h1.index:first-letter{
+  font-size: 200%;
+}
+
+h2{
+  text-align: center;
+  font-family: Lobster;
+  font-size: 200%;
+}
+
+p.parralax{
+  background-image: url("coffeeindex.jpg");
+  min-height: 65%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 0px;
+  margin-left: 0px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width:medium;
+  border-color: #115277;
+}
+
+ul.index{
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 150%;
+  list-style-position: inside;
+  align-items: right;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30%;
+}
+ul.notes{
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 130%;
+  list-style-position: outside;
+  align-items: left;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30%;
+}
+
+ol.recipe{
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 150%;
+  align-items: center;
+  list-style-position: inside;
+}
+
+.home{
+  background-color: #115277;
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.radio{
+  width=80%;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: #115277;
+  background-color: #115277;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  font-family: Montserrat;
+  font-size: 120%;
+  word-spacing: 0.5em;
+
+}
+
+input#submit{
+  font-family: Lobster;
+  background-color: #ffffff;
+}
+
+p.parralaxr{
+  background-image: url("capp.jpg");
+  min-height: 35%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 0px;
+  margin-left: 0px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width:medium;
+  border-color: #115277;
+}
+
+p.parralaxn{
+  background-image: url("nutrition.jpeg");
+  min-height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 0px;
+  margin-left: 0px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width:medium;
+  border-color: #115277;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #115277;
+  border-radius: 20px;
+  width: 25%;
+  height: auto;
+}
+
+table{
+  width: 100%;
+  height: 15%;
+  border: 3px solid #115277;
+  border-radius: 20px;
+}
+th,td{
+  border: 1.3px solid #115277;
+  border-radius: 20px;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 150%;
+  background-color: #f9f7ed;
+}
+
+dl{
+  width:100%;
+}
+
+dt{
+  border-top: 1px solid #115277;
+  background-color: #115277;
+  margin-top: 5px;
+  padding:5px;
+  border-left: 40px solid #115277;
+  border-right: 40px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-family: Montserrat;
+  font-size: 130%;
+  color: #ffffff;
+
+}
+dd{
+  border-bottom: 1px solid #115277;
+  background-color: #115277;
+  padding:10px;
+  margin-bottom: 5px;
+  border-left: 40px solid #115277;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: 0px;
+  font-family: Montserrat;
+  font-size: 130%;
+  color: #ffffff;
+}
